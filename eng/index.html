@@ -12,7 +12,6 @@
     />
 
     <!-- <link rel="icon" href=""> -->
-
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./avatar.css" />
 
@@ -25,13 +24,15 @@
         <div class="container nav__content">
           <div class="logo">
             <a href="#">
-              <img src="./images/logo.svg" alt="logo" />
+              <img src="/images/logo.svg" alt="logo" />
             </a>
           </div>
           <nav class="nav">
             <ul class="navbar">
               <li>
-                <a class="navbar__link navbar__link--active" href="#">Main</a>
+                <a class="navbar__link navbar__link--active" href="#abc"
+                  >Main</a
+                >
               </li>
               <li>
                 <a class="navbar__link" href="#">About us</a>
@@ -46,12 +47,22 @@
             <a class="log-in-link" href="#">Log In</a>
             <!-- language-toggle -->
             <div class="language-toggle">
-              <a class="language-toggle__link" href="./index.html">ENG</a>
-              <!-- <label class="switch">
-                <input type="checkbox" />
-                <span class="slider round"></span>
-              </label> -->
-              <a class="language-toggle__link" href="./uk-language/uk.html">UA</a>
+              <a class="language-toggle__link" href="/eng/index.html">ENG</a>
+              <!-- <div class="switch__container_container">
+              <div class="switch__container">
+                <input id="switch-flat" class="switch switch--flat" type="checkbox">
+                <label for="switch-flat"></label>
+              </div>
+            </div>  -->
+              <!-- <div class="ios-button-div">
+          <p>ENG</p>
+          <input type="checkbox" hidden="hidden" id="username" />
+          <label class="switch" for="username"></label>
+          <p>UA</p>
+        </div> -->
+              <a class="language-toggle__link" href="/uk-language/uk.html"
+                >UA</a
+              >
             </div>
             <!-- language-toggle -->
           </div>
@@ -59,46 +70,52 @@
       </section>
       <section class="header--bg">
         <div class="container header__content">
-            <div class="header__descr">
-              <h3 class="header__titles">
-                Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn
-                slu Na'viyä hapxì. Säwem nìayoeng!
-              </h3>
-              <img src="./images/arrow.svg" alt="arrow" />
-              <h3 class="header__titles">
-                I'm speaking with the warrior! Your spirit goes with Eywa, your
-                body stays behind to become part of the People. Fight with us!
-              </h3>
-              <button class="btn header__btn">
-                <span class="btn__txt"> Join clan </span>
-              </button>
-            </div>
-            <div class="soc-media">
-              <a class="soc-media__link" href="#">
-                <img src="./images/instagram.svg" alt="instagram" />
-              </a>
-              <a class="soc-media__link" href="#">
-                <img src="./images/twitter.svg" alt="twitter" />
-              </a>
-              <a class="soc-media__link" href="#">
-                <img src="./images/youtube.svg" alt="youtube" />
-              </a>
-            </div>
+          <div class="header__descr">
+            <h3 class="header__titles">
+              Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn
+              slu Na'viyä hapxì. Säwem nìayoeng!
+            </h3>
+            <img src="/images/arrow.svg" alt="arrow" class="img-header" />
+            <h3 class="header__titles">
+              I'm speaking with the warrior! Your spirit goes with Eywa, your
+              body stays behind to become part of the People. Fight with us!
+            </h3>
+            <button class="btn header__btn">
+              <span class="btn__txt"> Join clan </span>
+            </button>
+          </div>
+          <div class="soc-media">
+            <a class="soc-media__link" href="#">
+              <img src="/images/instagram.svg" alt="instagram" />
+            </a>
+            <a class="soc-media__link" href="#">
+              <img src="/images/twitter.svg" alt="twitter" />
+            </a>
+            <a class="soc-media__link" href="#">
+              <img src="/images/youtube.svg" alt="youtube" />
+            </a>
+          </div>
         </div>
       </section>
     </header>
     <main>
       <section class="quote-section">
         <div class="container quote-section__content">
-            <h2 class="quote-section__title quote-section__first-title">
-              “A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE GONNA COME
-              LIKE A RAIN THAT NEVER ENDS.”
-            </h2>
-            <h5 class="quote-section__autor">JAKE SULLY</h5>
-            <img src="./images/logo-2.svg" alt="logo" />
+          <h2 class="quote-section__title quote-section__first-title">
+            “A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE GONNA COME
+            LIKE A RAIN THAT NEVER ENDS.”
+          </h2>
+          <h5 class="quote-section__autor">JAKE SULLY</h5>
+        </div>
+        <div class="container quote-section__img">
+          <img
+            src="/images/Rectangle 8.png"
+            alt="logo"
+            class="img-quote-div quote-section-img-quote-div"
+          />
         </div>
       </section>
-      <section class="trailer-section">
+      <section class="trailer-section" id="abc">
         <div class="container">
           <div class="trailer-section__content">
             <button class="btn trailer-section__btn">
@@ -115,7 +132,9 @@
               BACK.”
             </h2>
             <h5 class="quote-section__autor">JAKE SULLY</h5>
-            <img src="./images/logo-2.svg" alt="logo" />
+          </div>
+          <div class="quote-section__img">
+            <img src="/images/logo-2.svg" alt="logo" class="img-quote-div" />
           </div>
         </div>
       </section>
@@ -128,32 +147,32 @@
             <div class="language-section__cards">
               <div class="language-section__card">
                 <h3 class="language-section__phrase">Hello</h3>
-                <img src="./images/arrow-left.svg" alt="arrow" />
+                <img src="/images/arrow-left.svg" alt="arrow" />
                 <h3 class="language-section__phrase">Kaltxì</h3>
               </div>
               <div class="language-section__card">
                 <h3 class="language-section__phrase">How Are You?</h3>
-                <img src="./images/animal.svg" alt="mountain banshee" />
+                <img src="/images/animal.svg" alt="mountain banshee" />
                 <h3 class="language-section__phrase">Ngaru lu fpom srak?</h3>
               </div>
               <div class="language-section__card">
                 <h3 class="language-section__phrase">I'm Well</h3>
-                <img src="./images/arrow-right.svg" alt="arrow" />
+                <img src="/images/arrow-right.svg" alt="arrow" />
                 <h3 class="language-section__phrase">Lu fpom</h3>
               </div>
               <div class="language-section__card">
                 <h3 class="language-section__phrase">Thank you</h3>
-                <img src="./images/arrow-left.svg" alt="arrow" />
+                <img src="/images/arrow-left.svg" alt="arrow" />
                 <h3 class="language-section__phrase">Irayo si</h3>
               </div>
               <div class="language-section__card">
                 <h3 class="language-section__phrase">I See You</h3>
-                <img src="./images/animal.svg" alt="mountain banshee" />
+                <img src="/images/animal.svg" alt="mountain banshee" />
                 <h3 class="language-section__phrase">Oel ngati kameie</h3>
               </div>
               <div class="language-section__card">
                 <h3 class="language-section__phrase">Follow me!</h3>
-                <img src="./images/arrow-right.svg" alt="arrow" />
+                <img src="/images/arrow-right.svg" alt="arrow" />
                 <h3 class="language-section__phrase">Nong oet!</h3>
               </div>
             </div>
@@ -168,7 +187,9 @@
               BALANCE OF LIFE.”
             </h2>
             <h5 class="quote-section__autor">NEYTIRI</h5>
-            <img src="./images/logo-2.svg" alt="logo" />
+          </div>
+          <div class="quote-section__img">
+            <img src="/images/logo-2.svg" alt="logo" class="img-quote-div" />
           </div>
         </div>
       </section>
@@ -179,7 +200,7 @@
         <div class="footer__content">
           <div class="logo footer__logo">
             <a href="#">
-              <img src="./images/logo.svg" alt="logo" />
+              <img src="/images/logo.svg" alt="logo" />
             </a>
           </div>
           <address class="address">
@@ -190,15 +211,18 @@
                 width="269"
                 height="2"
                 viewBox="0 0 269 2"
-                fill="none">
+                fill="none"
+              >
                 <path
                   d="M0 1L269 0.999976"
                   stroke="white"
                   stroke-width="2"
-                  stroke-dasharray="10 10"/>
+                  stroke-dasharray="10 10"
+                />
               </svg>
               <a class="address__link" href="avatartwowqa@gmail.com"
-                >avatartwowqa@gmail.com</a>
+                >avatartwowqa@gmail.com</a
+              >
             </div>
             <div class="address__content">
               <h4 class="address__txt">Cooperation E-mail</h4>
@@ -207,13 +231,18 @@
                 width="269"
                 height="2"
                 viewBox="0 0 269 2"
-                fill="none"><path
+                fill="none"
+              >
+                <path
                   d="M0 1L269 0.999976"
                   stroke="white"
                   stroke-width="2"
-                  stroke-dasharray="10 10"/>
+                  stroke-dasharray="10 10"
+                />
               </svg>
-              <a class="address__link" href="avatartwowcoop@gmail.com">avatartwowcoop@gmail.com</a>
+              <a class="address__link" href="avatartwowcoop@gmail.com"
+                >avatartwowcoop@gmail.com</a
+              >
             </div>
           </address>
         </div>

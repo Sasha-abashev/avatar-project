@@ -7,11 +7,10 @@
   --main-font: "Inter", sans-serif;
   --accent-font: "Headland One", serif;
 }
-a {
-  text-decoration: none;
-}
+
 html {
   scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 /* technical */
 
@@ -64,13 +63,13 @@ html {
   color: rgb(255, 255, 255);
   font-family: var(--main-font);
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
 }
+
 .navbar__link--active {
-  color: rgb(148, 207, 255);
   font-family: var(--main-font);
   font-size: 20px;
   font-weight: 600;
@@ -201,12 +200,7 @@ input:checked + .slider:before {
 
   width: 280px;
 }
-.header__uk-title {
- width: 376px;
-}
-.header__img {
-  align-self: center;
-}
+
 .btn {
   box-sizing: border-box;
   border: 3px solid rgb(38, 199, 234);
@@ -423,12 +417,58 @@ input:checked + .slider:before {
   line-height: normal;
 }
 .footer__authors-rights {
-  color: #FFF;
-text-align: center;
-font-family: var(--main-font);
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 /* footer */
+
+.container quote-section__img {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 0 10px 0;
+}
+
+.img-quote-div {
+  margin-left: 389px;
+  color: rgb(10, 56, 83);
+  font-family: var(--main-font);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.quote-section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 75px 0 10px 0;
+}
+.quote-section__title {
+  color: rgb(10, 56, 83);
+  font-family: var(--main-font);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.navbar__link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(148, 207, 255);
+  color: rgb(148, 207, 255);
+}
+.img-header {
+  margin-left: 53px;
+  width: 152px;
+  height: 40px;
+}
