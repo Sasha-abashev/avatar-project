@@ -186,6 +186,19 @@ input:checked + .slider:before {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .switch--flat + label {
   padding: 2px;
   width: 120px;
@@ -238,7 +251,28 @@ input:checked + .slider:before {
 
 
 
-/* .switch {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.switch {
   display: inline-block;
   position: relative;
   width: 38px;
@@ -272,7 +306,7 @@ input:checked + .switch::before {
 .ios-button-div {
   display: flex;
   position: absolute;
-  трохи дивно
+  /* трохи дивно */
   transform: translateX(180px);
 }
 .ios-button-div > p {
@@ -283,7 +317,7 @@ input:checked + .switch::before {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-} */
+}
 
 .switch__container_container {
   width: 100px;
@@ -589,3 +623,23 @@ input:checked + .switch::before {
 /* .soc-media__link:hover {
   fill: red;
 } */
+.language_ENG {
+  color: white;
+}
+
+.language_UA {
+  color:white;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

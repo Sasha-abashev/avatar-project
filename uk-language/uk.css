@@ -172,6 +172,70 @@ input:checked + .slider:before {
 } */
 /* language-toggle */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.switch {
+  display: inline-block;
+  position: relative;
+  width: 38px;
+  height: 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  transition: background 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.switch::before {
+  content: "";
+  position: absolute;
+  top: 1.6px;
+  left: 2px;
+  width: 15px;
+  height: 15px;
+  background: #fafafa;
+  border-radius: 50%;
+  transition: left 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+    background 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+input:checked + .switch::before {
+  left: 20px;
+  background: #fff;
+}
+
+.ios-button-div {
+  display: flex;
+  position: absolute;
+  /* трохи дивно */
+  transform: translateX(180px);
+}
+.ios-button-div > p {
+  color: var(--color-text1);
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.switch__container_container {
+  width: 100px;
+}
 .header--bg {
   background-image: url(../images/header-bg.png);
   background-size: cover;
