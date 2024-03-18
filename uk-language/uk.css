@@ -172,20 +172,6 @@ input:checked + .slider:before {
 } */
 /* language-toggle */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .switch {
   display: inline-block;
   position: relative;
@@ -535,4 +521,20 @@ input:checked + .switch::before {
   margin-left: 53px;
   width: 152px;
   height: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #d4d4d4;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: #939393;
+  border-radius: 8px;
+  border: 3px solid #d4d4d4;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7c7c7c;
 }
